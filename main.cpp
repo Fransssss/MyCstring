@@ -20,19 +20,19 @@ int main()
     char txt2[6] = "Jully";
 
     // check length
-    if(strlen(txt1) == strlen(txt2))
+    if(strlen(txt1) == strlen(txt2))                                                            // check length
     {
         cout << "Your input have the same length " << strlen(txt1) << " characters" << endl;
     }
 
     // compare two item
-    if(strcmp(txt1, txt2) == 0)
+    if(strcmp(txt1, txt2) == 0)                                                                // compare
     {
         cout << "Your both input are the same" << endl;
     }
 
     cout << endl << "Before copy [ " << txt1 << " ] to [ " << txt2 << " ]" <<  endl;
-    strcpy(txt1,txt2);
+    strcpy(txt1,txt2);                                                                          // copy
     cout << endl << "After copy [ " << txt1 << "] [ " << txt2 << " ]" << endl;
 
     return 0;
